@@ -1,0 +1,76 @@
+<script setup>
+import NavigationVue from "../Navigation/Navigation.vue";
+import Button from "../Slots/Button.vue";
+</script>
+<template>
+  <div class="showcase">
+    <NavigationVue />
+    <h1>
+      <span>Redefining Healthcare </span> <br />
+      with Technology and Design
+    </h1>
+    <p>
+      From cutting-edge medical equipment instalttions to thoughtfully designed
+      interiors, <br />
+      we create functional, patient-friendly environments that sets new
+      standards.
+    </p>
+    <div class="buttons">
+      <Button
+        backgroundColor="#198ae3"
+        class="left"
+        text="Request Quote"
+        color="#fff"
+        size="large"
+        :isArrow="false"
+      />
+      <Button
+        backgroundColor="#fff"
+        text="Contact us"
+        color="#000"
+        size="large"
+        border="1px solid black"
+        :isArrow="false"
+      />
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.showcase {
+  background-color: #f6f9fe;
+  height: 70vh;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #1e1e2f;
+  text-align: center;
+  margin-top: 100px;
+  line-height: 60px;
+}
+span {
+  color: #198ae3;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #454343;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 30px;
+}
+div {
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.buttons .left {
+  margin-right: 20px;
+}
+</style>
