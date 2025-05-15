@@ -22,7 +22,7 @@ import Button from "../Slots/Button.vue";
         text="Request Quote"
         color="#fff"
         size="large"
-        :isArrow="false"
+        :isArrow="true"
       />
       <Button
         backgroundColor="#fff"
@@ -30,7 +30,7 @@ import Button from "../Slots/Button.vue";
         color="#000"
         size="large"
         border="1px solid black"
-        :isArrow="false"
+        :isArrow="true"
       />
     </div>
   </div>
@@ -42,7 +42,7 @@ import Button from "../Slots/Button.vue";
   height: 70vh;
 }
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 50px;
   color: #1e1e2f;
   text-align: center;

@@ -27,7 +27,7 @@ const links = ref([
             text="Request Quote"
             color="#fff"
             size="large"
-            :isArrow="true"
+            :isArrow="false"
           />
         </li>
       </ul>
