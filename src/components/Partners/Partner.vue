@@ -4,12 +4,36 @@ import Title from "../Slots/Title.vue";
 import Cards from "../Slots/Cards.vue";
 
 // Define the logos dynamically
-const logos = ref(
-  Array.from({ length: 5 }, (_, i) => ({
-    src: new URL(`../../assets/logos/logo${i + 1}.png`, import.meta.url).href,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
-  }))
-);
+const logos = ref([
+  {
+    src: new URL("../../assets/logos/logo1.png", import.meta.url).href,
+    text: "Innovating the future of transportation technology solutions for a better tomorrow.",
+  },
+  {
+    src: new URL("../../assets/logos/logo2.png", import.meta.url).href,
+    text: "Trusted by industry leaders worldwide for quality and reliability in sport technology.",
+  },
+  {
+    src: new URL("../../assets/logos/logo3.png", import.meta.url).href,
+    text: "Delivering excellence in every project for over 20 years in the field of sport technology.",
+  },
+  {
+    src: new URL("../../assets/logos/logo4.png", import.meta.url).href,
+    text: "Revolutionizing transportation technology with cutting-edge solutions for a sustainable future in transportation.",
+  },
+  {
+    src: new URL("../../assets/logos/logo5.png", import.meta.url).href,
+    text: "Building a healthier tomorrow with innovative solutions in delivery technology for a better world.",
+  },
+  {
+    src: new URL("../../assets/logos/logo8.png", import.meta.url).href,
+    text: "Building a healthier tomorrow with innovative solutions in gaming technology for a better world and a brighter future.",
+  },
+  {
+    src: new URL("../../assets/logos/logo11.png", import.meta.url).href,
+    text: "Building a healthier tomorrow with innovative solutions in gaming technology for a better world and a brighter future.",
+  },
+]);
 </script>
 
 <template>
