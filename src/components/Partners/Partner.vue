@@ -68,7 +68,7 @@ const logos = ref([
   font-family: "Courier New", Courier, monospace;
   background-color: #f6f9fe;
   width: 100%;
-  margin: 10px auto;
+  margin: 0px auto;
   padding: 20px;
 }
 

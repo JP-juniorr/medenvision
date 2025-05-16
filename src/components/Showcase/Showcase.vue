@@ -1,6 +1,7 @@
 <script setup>
 import NavigationVue from "../Navigation/Navigation.vue";
 import Button from "../Slots/Button.vue";
+import Title from "../Slots/Title.vue";
 </script>
 <template>
   <div class="showcase">
@@ -15,15 +16,14 @@ import Button from "../Slots/Button.vue";
       we create functional, patient-friendly environments that sets new
       standards.
     </p>
+    <p>
+      Our team of experts is dedicated to delivering innovative solutions that
+      enhance the quality of care and improve patient outcomes.
+      <br />
+      We are committed to providing the highest level of service and support to
+      our clients, ensuring that every project is a success.
+    </p>
     <div class="buttons">
-      <Button
-        backgroundColor="#198ae3"
-        class="left"
-        text="Request Quote"
-        color="#fff"
-        size="large"
-        :isArrow="true"
-      />
       <Button
         backgroundColor="#fff"
         text="Contact us"
@@ -39,18 +39,18 @@ import Button from "../Slots/Button.vue";
 <style scoped>
 .showcase {
   background-color: #f6f9fe;
-  height: 70vh;
+  height: 80vh;
 }
 h1 {
   font-family: "Courier New", Courier, monospace;
   font-size: 50px;
-  color: #1e1e2f;
+  color: #00041f;
   text-align: center;
   margin-top: 100px;
   line-height: 60px;
 }
 span {
-  color: #198ae3;
+  color: #00041f;
 }
 p {
   font-family: "Poppins", sans-serif;

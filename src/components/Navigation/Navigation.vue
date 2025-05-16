@@ -1,6 +1,7 @@
 <script setup>
 import logo from "../../assets/logo.png";
 import Button from "../Slots/Button.vue";
+import Title from "../Slots/Title.vue";
 import { ref } from "vue";
 const links = ref([
   { name: "Home", href: "#home" },
@@ -22,13 +23,9 @@ const links = ref([
           <a :href="link.href">{{ link.name }}</a>
         </li>
         <li>
-          <Button
-            backgroundColor="#198ae3"
-            text="Request Quote"
-            color="#fff"
-            size="large"
-            :isArrow="false"
-          />
+          <Title>
+            <template #title>Request a Quote</template>
+          </Title>
         </li>
       </ul>
     </nav>
