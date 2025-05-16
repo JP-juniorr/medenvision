@@ -4,8 +4,9 @@ import Background from "./components/Background/Background.vue";
 import Partners from "./components/Partners/Partner.vue";
 import About from "./components/About/About.vue";
 import Features from "./components/Features/Features.vue";
-import Review from "./components/Reviews/Review.vue";
 import Mission from "./components/Mission/Mission.vue";
+import Questions from "./components/questions/Questions.vue";
+import Footer from "./components/Footer/Footer.vue";
 </script>
 
 <template>
@@ -15,8 +16,9 @@ import Mission from "./components/Mission/Mission.vue";
     <Partners />
     <About />
     <Features />
-    <Review />
     <Mission />
+    <Questions />
+    <Footer />
   </div>
 </template>
 
